@@ -26,7 +26,12 @@ button:hover {
 .container > div > p {
     color: green;
 }
+
 p::first-letter {
     font-size: 2em;
+    font-weight: bold;
+}
+
+li:first-child {
     font-weight: bold;
 }
